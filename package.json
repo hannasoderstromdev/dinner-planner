@@ -22,7 +22,14 @@
     "type": "git",
     "url": "git+https://github.com/gothbarbie/another-webpack-react-starter.git"
   },
-  "keywords": ["starter", "react", "webpack", "babel", "redux", "jest"],
+  "keywords": [
+    "starter",
+    "react",
+    "webpack",
+    "babel",
+    "redux",
+    "jest"
+  ],
   "author": "Hanna Söderström <contact@hannasoderstrom.com>",
   "license": "ISC",
   "bugs": {
