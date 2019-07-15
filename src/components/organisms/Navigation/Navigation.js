@@ -22,26 +22,6 @@ const Navigation = () => (
           <Icon icon={['fas', 'list']} iconsize="1.8rem" />
         </NavLink>
       </li>
-      <li>
-        <NavLink
-          activeClassName={styles.active}
-          isActive={isActive.bind(this, '/private')}
-          to="/private"
-        >
-          <span>Private</span>
-          <Icon icon={['fas', 'plus-circle']} iconsize="1.8rem" />
-        </NavLink>
-      </li>
-      <li>
-        <NavLink
-          activeClassName={styles.active}
-          isActive={isActive.bind(this, '/private')}
-          to="/settings"
-        >
-          <span>Settings</span>
-          <Icon icon={['fas', 'cog']} iconsize="1.8rem" />
-        </NavLink>
-      </li>
     </ul>
   </nav>
 )
