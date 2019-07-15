@@ -1,0 +1,15 @@
+.button {
+  background: linear-gradient(180deg, #FFFFFF 0%, #F1F1F1 100%);
+  border: 2px solid #E5E5E5;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  color: #666666;
+  cursor: pointer;
+
+  &:hover {
+    border: 2px solid rgb(172, 172, 172);
+  }
+}
+

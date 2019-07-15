@@ -1,8 +1,10 @@
 import React from 'react'
 
+import styles from './button.module.scss'
+
 const Button = ({ className, children, onClick, disabled, type, ...rest }) => (
   <button
-    className={className}
+    className={`${styles.button} ${className}`}
     data-testid="button"
     disabled={disabled}
     onClick={onClick}
