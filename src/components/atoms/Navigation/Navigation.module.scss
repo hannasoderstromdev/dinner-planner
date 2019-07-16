@@ -1,0 +1,30 @@
+.navigation {
+  width: 100%;
+}
+
+.navigation ul{
+  display:flex;
+  list-style-type: none;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+
+  li {
+    flex: 1;
+  }
+}
+
+.button {
+  background-color:#F9F9F9;
+  border-color: #ECECEC;
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+  padding: 10px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.active {
+  border-bottom: none;
+  background-color: transparent;
+}
