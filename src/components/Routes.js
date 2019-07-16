@@ -5,18 +5,17 @@ import ErrorBoundary from 'components/hoc/ErrorBoundary'
 
 import Alert from 'components/molecules/Alert'
 import Modals from 'components/organisms/Modals'
-import Navigation from 'components/organisms/Navigation'
 
 import Home from './pages/Home'
+import GenerateDinners from './pages/GenerateDinners'
 import Error404 from './pages/Error404'
 
 const Routes = () => (
   <ErrorBoundary>
     <div>
-      <Navigation />
-
       <Switch>
         <Route component={Home} exact path="/" />
+        <Route component={GenerateDinners} path="/generate-dinners" />
         <Route component={Error404} />
       </Switch>
 
