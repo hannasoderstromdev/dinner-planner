@@ -48,6 +48,7 @@ module.exports = env => {
       watchContentBase: true,
       publicPath: '/',
       hot: isDevelopment,
+      historyApiFallback: true,
     },
     devtool: isDevelopment ? 'inline-source-map' : false,
     entry: [
