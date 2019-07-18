@@ -143,7 +143,7 @@ module.exports = env => {
               loader: 'url-loader',
               options: {
                 limit: 8000,
-                name: 'images/[hash]-[name].[ext]',
+                name: '[hash]-[name].[ext]',
               },
             },
           ],
@@ -220,7 +220,7 @@ module.exports = env => {
       isDevelopment ? new webpack.HotModuleReplacementPlugin() : () => {},
     ],
     performance: {
-      hints: isProduction,
+      hints: isProduction ? false : 'warning',
     },
   }
 }
