@@ -23,6 +23,7 @@ import {
   faUnlock,
   faTh,
   faThList,
+  faSyncAlt,
 } from '@fortawesome/free-solid-svg-icons'
 
 library.add(
@@ -49,4 +50,5 @@ library.add(
   faUnlock,
   faTh,
   faThList,
+  faSyncAlt,
 )
