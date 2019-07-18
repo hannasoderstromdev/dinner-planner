@@ -1,0 +1,18 @@
+.thumbnail {
+  background-size: cover;
+  background-position-y: 50%;
+  display: flex;
+
+  h2{
+    font-family: Roboto, sans-serif;
+    background-color: rgba(255, 255, 255, 0.8);
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 10px 0;
+    margin: 45px 0;
+  
+  }
+}
