@@ -117,7 +117,7 @@ module.exports = env => {
           use: {
             loader: 'eslint-loader',
             options: {
-              emitError: true,
+              emitWarning: true,
             },
           },
         },
