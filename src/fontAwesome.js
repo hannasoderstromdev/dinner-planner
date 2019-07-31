@@ -1,5 +1,6 @@
 import { library } from '@fortawesome/fontawesome-svg-core'
 import {
+  faCheck,
   faCheckCircle,
   faChevronDown,
   faChevronUp,
@@ -27,6 +28,7 @@ import {
 } from '@fortawesome/free-solid-svg-icons'
 
 library.add(
+  faCheck,
   faCheckCircle,
   faChevronDown,
   faChevronUp,
