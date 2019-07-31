@@ -1,5 +1,9 @@
 .navigation {
   width: 100%;
+
+  span {
+    margin-left: 5px;
+  }
 }
 
 .navigation ul{
@@ -15,7 +19,7 @@
 }
 
 .button {
-  background-color:#F9F9F9;
+  background-color:rgb(228, 228, 228);
   border-color: #ECECEC;
   font-family: Roboto, sans-serif;
   font-size: 12px;

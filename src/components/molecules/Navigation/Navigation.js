@@ -4,7 +4,7 @@ import Icon from 'components/atoms/Icon'
 
 import styles from './Navigation.module.scss'
 
-const Navigation = ({ currentTab }) => (
+const Navigation = ({ currentTab, setCurrentTab }) => (
   <nav className={styles.navigation}>
     <ul>
       <li>
@@ -12,8 +12,10 @@ const Navigation = ({ currentTab }) => (
           className={`${styles.button} ${
             currentTab === 'generate-dinner' ? styles.active : ''
           }`}
+          onClick={() => setCurrentTab('generate-dinner')}
         >
-          <Icon color="#DEDEDE" icon={['fas', 'sync-alt']} /> Generate Dinner
+          <Icon color="#DEDEDE" icon={['fas', 'sync-alt']} />
+          <span>Generate Dinner</span>
         </button>
       </li>
       <li>
@@ -21,8 +23,9 @@ const Navigation = ({ currentTab }) => (
           className={`${styles.button} ${
             currentTab === 'generate-schedule' ? styles.active : ''
           }`}
+          onClick={() => setCurrentTab('generate-schedule')}
         >
-          Generate Schedule
+          <span>Generate Schedule</span>
         </button>
       </li>
     </ul>
