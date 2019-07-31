@@ -14,9 +14,9 @@ const Home = () => (
           <h1 className={styles.h1}>Dinner Generator</h1>
         </header>
         <div className={styles.body}>
-          <Button>Generate Dinners</Button>
-          <Button>Create Dinner</Button>
-          <Button>What can I make with...?</Button>
+          <Button shadow={true}>Generate Dinners</Button>
+          <Button shadow={true}>Create Dinner</Button>
+          <Button shadow={true}>What can I make with...?</Button>
         </div>
       </Main>
     </div>
