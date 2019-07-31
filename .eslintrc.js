@@ -66,7 +66,7 @@ module.exports = {
     'react/jsx-sort-default-props': 2,
     'react/jsx-sort-props': 2,
     'react/jsx-uses-vars': 2,
-    'no-console': 2,
+    'no-console': 1,
     'no-template-curly-in-string': 2,
     'key-spacing': 0,
     'no-new-wrappers': 2,
