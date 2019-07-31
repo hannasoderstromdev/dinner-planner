@@ -2,9 +2,17 @@ import React from 'react'
 
 import styles from './button.module.scss'
 
-const Button = ({ className, children, onClick, disabled, type, ...rest }) => (
+const Button = ({
+  className,
+  children,
+  disabled,
+  onClick,
+  shadow,
+  type,
+  ...rest
+}) => (
   <button
-    className={`${styles.button} ${className}`}
+    className={`${styles.button} ${shadow ? styles.shadow : ''} ${className}`}
     data-testid="button"
     disabled={disabled}
     onClick={onClick}
@@ -19,6 +27,7 @@ Button.defaultProps = {
   className: null,
   disabled: false,
   onClick: null,
+  shadow: false,
   type: null,
 }
 

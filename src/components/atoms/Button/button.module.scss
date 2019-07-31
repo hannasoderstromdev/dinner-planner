@@ -2,7 +2,6 @@
   background: linear-gradient(180deg, #FFFFFF 0%, #F1F1F1 100%);
   border: 2px solid #E5E5E5;
   border-radius: 4px;
-  box-shadow: 0 2px 8px rgba(0,0,0, 0.5);
   padding: 10px 20px;
   font-family: 'Roboto', sans-serif;
   font-size: 12px;
@@ -14,3 +13,6 @@
   }
 }
 
+.shadow {
+  box-shadow: 0 2px 8px rgba(0,0,0, 0.5);
+}
