@@ -11,14 +11,6 @@ import Navigation from 'components/molecules/Navigation'
 
 import styles from './GenerateDinners.module.scss'
 
-const ingredients = [
-  'Spaghetti, 1 normal cock-size',
-  'Grinded meat, 500g thats grams fuckhead',
-  'Mushroom, 2 cans',
-  'Cocktail tomatoes, 1/2 package',
-  'Cucumber, 1/3',
-]
-
 const groceries = [
   'Spaghetti, 1 normal cock-size',
   'Grinded meat, 500g thats grams fuckhead',
@@ -26,6 +18,20 @@ const groceries = [
   'Cocktail tomatoes, 1/2 package',
   'Cucumber, 1/3',
 ]
+
+const singleDinner = {
+  id: 'dinnerId01',
+  name: 'Spaghetti n meat sauce',
+  link: 'spaghetti-n-meat-sauce',
+  imageUrl: 'spaghetti.jpg',
+  ingredients: [
+    'Spaghetti, 1 normal cock-size',
+    'Grinded meat, 500g thats grams fuckhead',
+    'Mushroom, 2 cans',
+    'Cocktail tomatoes, 1/2 package',
+    'Cucumber, 1/3',
+  ],
+}
 
 const weekdaysWithDinners = [
   {
@@ -93,10 +99,10 @@ const GenerateDinners = () => {
         {currentTab === 'generate-dinner' ? (
           <div>
             <DinnerThumbnail
-              imgFileName={'spaghetti.jpg'}
-              name="Spaghetti and brain-sauce"
+              imgFileName={singleDinner.imageUrl}
+              name={singleDinner.name}
             />
-            <Ingredients ingredients={ingredients} />
+            <Ingredients ingredients={singleDinner.ingredients} />
           </div>
         ) : (
           <React.Fragment>
