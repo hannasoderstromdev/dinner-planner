@@ -42,7 +42,9 @@ const WhatCanIMakeWith = () => {
         <Line />
         <div className={styles.center}>
           <Search />
-          <div>- Found 2 dinners -</div>
+          <div className={styles.foundText}>
+            <em>- Found X dinners -</em>
+          </div>
           <Dinners dinnerList={dinnerList} />
         </div>
       </Main>
