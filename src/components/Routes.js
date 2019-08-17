@@ -9,6 +9,7 @@ import Modals from 'components/organisms/Modals'
 import Home from './pages/Home'
 import GenerateDinners from './pages/GenerateDinners'
 import WhatCanIMakeWith from './pages/WhatCanIMakeWith'
+import CreateDinner from './pages/CreateDinner'
 import Error404 from './pages/Error404'
 
 const Routes = () => (
@@ -18,6 +19,7 @@ const Routes = () => (
         <Route component={Home} exact path="/" />
         <Route component={GenerateDinners} path="/generate-dinners" />
         <Route component={WhatCanIMakeWith} path="/what-can-i-make-with" />
+        <Route component={CreateDinner} path="/create-dinner" />
         <Route component={Error404} />
       </Switch>
 
