@@ -1,0 +1,22 @@
+.list {
+  margin: 0;
+  padding: 0;
+}
+
+.dinner {
+  display: flex;
+  align-items: center;
+  padding: 8px 15px 8px 8px;
+  margin: 0 0 15px 0;
+  border: 1px solid #ECECEC;
+
+  &:hover {
+    border: 1px solid #5AA0D3;
+  }
+}
+
+.image {
+  margin-right: 15px;
+  width: 116px;
+  height: auto;
+}
